@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB9880DD23DFF7A90090B68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9880DC23DFF7A90090B68C /* AppDelegate.swift */; };
+		BB9880DF23DFF7A90090B68C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9880DE23DFF7A90090B68C /* SceneDelegate.swift */; };
+		BB9880E123DFF7A90090B68C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9880E023DFF7A90090B68C /* ContentView.swift */; };
+		BB9880E323DFF7B50090B68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9880E223DFF7B50090B68C /* Assets.xcassets */; };
+		BB9880E623DFF7B50090B68C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9880E523DFF7B50090B68C /* Preview Assets.xcassets */; };
+		BB9880E923DFF7B50090B68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9880E723DFF7B50090B68C /* LaunchScreen.storyboard */; };
+		BBD6454423E13FAC0085A8CC /* LogoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6454323E13FAB0085A8CC /* LogoHeaderView.swift */; };
+		BBD6454623E1401D0085A8CC /* PizzaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6454523E1401D0085A8CC /* PizzaListView.swift */; };
+		BBD6454823E141CC0085A8CC /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6454723E141CC0085A8CC /* OrderListView.swift */; };
+		BBD6454B23E145430085A8CC /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6454A23E145430085A8CC /* TitleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB9880D923DFF7A90090B68C /* DonsPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonsPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9880DC23DFF7A90090B68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB9880DE23DFF7A90090B68C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB9880E023DFF7A90090B68C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB9880E223DFF7B50090B68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB9880E523DFF7B50090B68C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB9880E823DFF7B50090B68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB9880EA23DFF7B50090B68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD6454323E13FAB0085A8CC /* LogoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoHeaderView.swift; sourceTree = "<group>"; };
+		BBD6454523E1401D0085A8CC /* PizzaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListView.swift; sourceTree = "<group>"; };
+		BBD6454723E141CC0085A8CC /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		BBD6454A23E145430085A8CC /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB9880D623DFF7A90090B68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB9880D023DFF7A90090B68C = {
+			isa = PBXGroup;
+			children = (
+				BB9880DB23DFF7A90090B68C /* DonsPizza */,
+				BB9880DA23DFF7A90090B68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9880DA23DFF7A90090B68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9880D923DFF7A90090B68C /* DonsPizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9880DB23DFF7A90090B68C /* DonsPizza */ = {
+			isa = PBXGroup;
+			children = (
+				BB9880DC23DFF7A90090B68C /* AppDelegate.swift */,
+				BB9880DE23DFF7A90090B68C /* SceneDelegate.swift */,
+				BBD6454923E141F70085A8CC /* MainView-FirstTab */,
+				BB9880E223DFF7B50090B68C /* Assets.xcassets */,
+				BB9880E723DFF7B50090B68C /* LaunchScreen.storyboard */,
+				BB9880EA23DFF7B50090B68C /* Info.plist */,
+				BB9880E423DFF7B50090B68C /* Preview Content */,
+			);
+			path = DonsPizza;
+			sourceTree = "<group>";
+		};
+		BB9880E423DFF7B50090B68C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB9880E523DFF7B50090B68C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBD6454923E141F70085A8CC /* MainView-FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				BB9880E023DFF7A90090B68C /* ContentView.swift */,
+				BBD6454723E141CC0085A8CC /* OrderListView.swift */,
+				BBD6454523E1401D0085A8CC /* PizzaListView.swift */,
+				BBD6454323E13FAB0085A8CC /* LogoHeaderView.swift */,
+				BBD6454A23E145430085A8CC /* TitleView.swift */,
+			);
+			path = "MainView-FirstTab";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB9880D823DFF7A90090B68C /* DonsPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9880ED23DFF7B50090B68C /* Build configuration list for PBXNativeTarget "DonsPizza" */;
+			buildPhases = (
+				BB9880D523DFF7A90090B68C /* Sources */,
+				BB9880D623DFF7A90090B68C /* Frameworks */,
+				BB9880D723DFF7A90090B68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonsPizza;
+			productName = DonsPizza;
+			productReference = BB9880D923DFF7A90090B68C /* DonsPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB9880D123DFF7A90090B68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mt Aden LLC";
+				TargetAttributes = {
+					BB9880D823DFF7A90090B68C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = BB9880D423DFF7A90090B68C /* Build configuration list for PBXProject "DonsPizza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB9880D023DFF7A90090B68C;
+			productRefGroup = BB9880DA23DFF7A90090B68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9880D823DFF7A90090B68C /* DonsPizza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB9880D723DFF7A90090B68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9880E923DFF7B50090B68C /* LaunchScreen.storyboard in Resources */,
+				BB9880E623DFF7B50090B68C /* Preview Assets.xcassets in Resources */,
+				BB9880E323DFF7B50090B68C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB9880D523DFF7A90090B68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD6454423E13FAC0085A8CC /* LogoHeaderView.swift in Sources */,
+				BBD6454623E1401D0085A8CC /* PizzaListView.swift in Sources */,
+				BB9880DD23DFF7A90090B68C /* AppDelegate.swift in Sources */,
+				BBD6454B23E145430085A8CC /* TitleView.swift in Sources */,
+				BB9880DF23DFF7A90090B68C /* SceneDelegate.swift in Sources */,
+				BB9880E123DFF7A90090B68C /* ContentView.swift in Sources */,
+				BBD6454823E141CC0085A8CC /* OrderListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB9880E723DFF7B50090B68C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9880E823DFF7B50090B68C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB9880EB23DFF7B50090B68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB9880EC23DFF7B50090B68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB9880EE23DFF7B50090B68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DonsPizza/Preview Content\"";
+				DEVELOPMENT_TEAM = PD5GSVG63T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DonsPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokchoudhary.app.ios.DonsPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB9880EF23DFF7B50090B68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DonsPizza/Preview Content\"";
+				DEVELOPMENT_TEAM = PD5GSVG63T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DonsPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokchoudhary.app.ios.DonsPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB9880D423DFF7A90090B68C /* Build configuration list for PBXProject "DonsPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9880EB23DFF7B50090B68C /* Debug */,
+				BB9880EC23DFF7B50090B68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9880ED23DFF7B50090B68C /* Build configuration list for PBXNativeTarget "DonsPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9880EE23DFF7B50090B68C /* Debug */,
+				BB9880EF23DFF7B50090B68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB9880D123DFF7A90090B68C /* Project object */;
+}
